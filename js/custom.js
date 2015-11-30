@@ -126,7 +126,7 @@ $(document).ready(function() {
             var text = "";
             var i = 0;
             var str = $this.html();
-            var arr = str.split("http://simpleqode.com/");
+            var arr = str.split("/");
             var value = arr[0];
             var maxValue = arr[1];
             var step = value/100;

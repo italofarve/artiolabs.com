@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="es">
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,6 +36,7 @@
 
     <!-- SIDEBAR
     ============================== -->
+    <!-- <div class="sidebar"> -->
     <div class="sidebar js-sidebar-aside">
       <div class="sidebar__wrapper">
 
@@ -49,20 +50,20 @@
           <form>
             <div class="form-group">
               <label class="sr-only" for="login__username">Username</label>
-              <input type="text" class="form-control" id="login__username" placeholder="Username"></imput>
+              <input type="text" class="form-control" id="login__username" placeholder="Username">
             </div>
             <div class="form-group">
               <label class="sr-only" for="login__password">Password</label>
-              <input type="password" class="form-control" id="login__password" placeholder="Password"></imput>
+              <input type="password" class="form-control" id="login__password" placeholder="Password">
             </div>
             <button type="submit" class="btn btn-block btn-primary">Sign In</button>
           </form>
         </div>
 
-       <!--  <h4 class="sidebar__heading">
-          Sign In
+<!--          <h4 class="sidebar__heading">
+          Layouts
         </h4> -->
- <!--        <ul class="sidebar__menu">
+  <!--       <ul class="sidebar__menu">
           <li><a href="index_agency.html">Agency</a></li>
           <li><a href="index_app.html">App</a></li>
           <li><a href="index_sign-up.html">Sign Up</a></li>
@@ -87,13 +88,15 @@
 
     <!-- WRAPPER
     ============================== -->
-    <div class="wrapper">
-    <!-- <div class="wrapper js-wrapper-aside"> -->
+    <!-- <div class="wrapper"> -->
+    <div class="wrapper js-wrapper-aside">
+
 
       <!-- NAVBAR
       ============================== -->
-      <nav class="navbar navbar-fiexd-top navbar-inverse js-toggleClass">
-      <!-- <nav class="navbar navbar-fixed-top navbar-inverse js-toggleClass js-navar-aside"> -->
+      <!-- <nav class="navbar navbar-default navbar-fixed-top js-navbar-top js-toggleClass"> -->
+      <nav class="navbar navbar-fixed-top js-toggleClass js-navbar-top navbar-default js-navbar-inverse js-navbar-aside">
+
         <div class="container">
           <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -107,18 +110,16 @@
           <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right ">
               <li class="active"><a href="#home">Home</a></li>
-              <li><a href="#about">What we do</a></li>
+              <li><a href="#about">What We Do</a></li>
               <li><a href="#second">Artificial Intelligence Cloud</a></li>
-              <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-              <!-- <li><a href="#pricing">Pricing</a></li> -->
               <li><a href="#team">Team</a></li>
-              <!-- <li><a href="#skilsl">Blog</a></li> -->
+              <li><a href="http://blog.artiolabs.com/">Blog</a></li>
               <li><a href="#contact">Contact Us</a></li>
               <li class="hidden-xs">
                 <p class="navbar-text navbar__separator"></p>
               </li>
               <li>
-                <a href="index.html#" class="js-toggle-sidebar">
+                <a href="#" class="js-toggle-sidebar">
                   <span class="oi oi-menu hidden-xs"></span>
                   <span class="visible-xs">Sign In</span>
                 </a>
@@ -165,7 +166,7 @@
               <h4 class="heading">About our company</h4>
               <p class="heading__sub">
                 We develop software, applications and MVPs with Artificial Intelligence, Data Analysis and Data Science.<br />
-                We use trend technologies because they allow us to build products more valuable for your business, we can extract knowledge more rich and quickly from data instead of using conventional techniques.
+                We use trend technologies because these allow us to build products more valuable for your business, we can extract knowledge more rich and quickly from data instead of using conventional techniques.
               </p>
             </div>
           </div> <!-- / .row -->
@@ -417,6 +418,21 @@
       </div> <!-- / .section -->
 
 
+      <!-- GET STARTED NOW
+      ============================== -->
+
+      <!-- PRICING
+      ============================== -->
+
+      <!-- SKILLS
+      ============================== -->
+
+
+
+      <!-- TESTIMONIALS
+      ============================== -->
+
+
       <!-- SUBSCRIBE
       ============================== -->
       <div class="section" id="subscribe">
@@ -454,7 +470,7 @@
             <h4 class="heading">Feel free to contact us</h4>
             <p class="heading__sub">
               Our email, if you prefer to write us: <a href="mailto:hello@artiolabs.com">hello@artiolabs.com</a>.<br /> We are in Spain, France, Perú, México. 
-            </p>
+              </p>
           </div>
         </div> <!-- / .row -->
 
@@ -487,7 +503,7 @@
 
                   <!-- reCAPTCHA -->
                   <div class="form-group" id="form-captcha">
-                    <div class="g-recaptcha" data-sitekey="6LfvnfsSAAAAAEki5WArkSXILHgyavBDFfVAn3gp"></div>
+                    <div class="g-recaptcha" data-sitekey="YOUR_PUBLIC_KEY"></div>
                     <span class="help-block"></span>
                   </div>
                   <!-- /reCAPTCHA -->
@@ -551,8 +567,8 @@
     ================================================== -->
     
     <!-- JS Global -->
-    <script src="../../../../ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <script src="js/bootstrap/bootstrap.min.js"></script>
 
     <!-- JS Plugins -->
@@ -569,5 +585,4 @@
 
 
   </body>
-
 </html>
