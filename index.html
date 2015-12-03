@@ -57,6 +57,22 @@
   </head>
 
   <body data-spy="scroll" data-target=".navbar" data-offset="71">
+  
+    <!-- POLITICA DE COOKIES
+    ============================== -->
+	<div style="display: block;" id="barraaceptacion">
+	    <div class="inner">
+	        Solicitamos su permiso para obtener datos estadísticos de su navegación en esta web, en cumplimiento del Real 
+	        Decreto-ley 13/2012. Si continúa navegando consideramos que acepta el uso de cookies.
+	        <a href="javascript:void(0);" class="ok" onclick="controlcookies()"><b>OK</b></a> | 
+	        <a href="http://politicadecookies.com" target="_blank" class="info">Más información</a>
+	    </div>
+	</div>
+	<script type="text/javascript">
+	if (localStorage.controlcookie>0){ 
+		document.getElementById('barraaceptacion').style.display = 'none';
+	}
+	</script>
 
     <!-- SIDEBAR
     ============================== -->
@@ -139,7 +155,7 @@
               <li><a href="#team">Team</a></li>
               <li><a href="http://blog.artiolabs.com/">Blog</a></li>
               <li><a href="#contact">Contact Us</a></li>
-              <li class="hidden-xs">
+              <!--<li class="hidden-xs">
                 <p class="navbar-text navbar__separator"></p>
               </li>
               <li>
@@ -147,7 +163,7 @@
                   <span class="oi oi-menu hidden-xs"></span>
                   <span class="visible-xs">Sign In</span>
                 </a>
-              </li>
+              </li>-->
             </ul>
           </div><!--/.nav-collapse -->
         </div>
@@ -606,7 +622,9 @@
 
     <!-- JS Custom -->
     <script src="http://www.artiolabs.com/js/custom.js"></script>
-
-
+    
+    <!-- POLITICA DE COOKIES -->
+    <script type="text/javascript" src="http://www.artiolabs.com/js/politicaDeCookies.js"></script>
+    
   </body>
 </html>
