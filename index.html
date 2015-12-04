@@ -588,6 +588,10 @@
             <!-- Please carefully read the README.txt file
              in order to setup the PHP contact form properly -->
             <!-- <form role="form" class="contact__form" id="form_sendemail" action="http://formspree.io/hello@artiolabs.com"> -->
+
+            <!-- Security Javascrip -->
+            <!-- <form class="contact__form" id="contactform" method="POST"> -->
+
             <form class="contact__form" action="http://formspree.io/hello@artiolabs.com" method="POST">
               <div class="row">
                 <div class="col-sm-6">
@@ -643,6 +647,12 @@
               <input type="hidden" name="_next" value="//artiolabs.com/thanks.html" />
 
             </form>
+            <!-- SECURITY  -->
+            <!-- <script>
+                var contactform =  document.getElementById('contactform');
+                contactform.setAttribute('action', '//formspree.io/' + 'hello' + '@' + 'artiolabs' + '.' + 'com');
+            </script> -->
+
           </div>
         </div> <!-- / .row -->
       </div> <!-- / .container -->
