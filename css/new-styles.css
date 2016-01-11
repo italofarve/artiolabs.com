@@ -1,3 +1,30 @@
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #FFF;
 }
+
+
+.famfamfam-flag-br {
+/*	font-size: 120%;
+	-ms-transform: scale(1.5); /* IE 9 */
+/*  	-webkit-transform: scale(1.5);*/ /* Chrome, Safari, Opera */
+  	/*transform: scale(1.5);*/
+/*	background-size: 600px;*/
+
+}
+
+
+.centrado{
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  margin-bottom: 2em;
+  margin-top: 2em;
+/*  max-height: 70%;
+  height: auto;*/
+  height: 40px;
+}
+
+
+.team-item-contact__link_facebook:hover,
+.team-item-contact__link_facebook:focus {
+  background: #0077B5;
+}
