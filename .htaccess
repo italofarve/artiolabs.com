@@ -1,2 +1,4 @@
 ErrorDocument 404 http://www.artiolabs.com/404.html
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteEngine on
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\\ /index\\.html\\ HTTP/
+RewriteRule ^index\\.html$ http://artiolabs.com/ [R=301,L]
